@@ -68,7 +68,7 @@ if st =="1":
 elif st =="0":#clean
     os.system("sudo rm -rf /var/www/html/*")
     os.system("clear")
-    print "Now apache is clean 3:)"
+    print ("Now apache is clean 3:")
     sys.exit()  
    
 else:
